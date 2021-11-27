@@ -1,0 +1,111 @@
+:root{
+    --primary-text-color: #212121;
+    --additional-text-color: #757575;
+    --accent-text-color: #2196F3;
+    --logo-text-color: #000000;
+    --hero-text-color: #FFFFFF;
+    --mailto-tel-text-color: rgba(255, 255, 255, 0.6);
+    --primary-background-color: #E5E5E5;
+    --additional-background-color: #F5F4FA;
+    --heder-background-color: #FFFFFF;
+    --futer-background-color: #2F303A;
+    --hero-button: #2196F3;
+}
+/* Цвет текста */
+/* Логотип первое слово, єффект ховера и фокус #2196F3 #2196F3*/
+/* Логотип второе слово #000000 */
+/* Ссылки в хедере #212121 */
+/* Телефон в хедере #757575 */
+/* Текст в герое #FFFFFF */
+/* заголовки h2, h3 #212121 */
+/* Абзацы #757575 */
+/* Почтовый адресс в футере #FFFFFF */
+/* Электронный адрес и телефон в футуре rgba(255, 255, 255, 0.6) */
+
+/* Цвет фона */
+/* heder-background-color: #FFFFFF */
+/* primary-background-color: #E5E5E5 */
+/* additional-background-color: #F5F4FA */
+/* hero-button #2196F3 */
+/* futer-background-color #2F303A */
+
+/* body */
+body{
+    font-family: Roboto, Sans Serif;
+    letter-spacing: 0.03em;
+    }    
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}  
+body p{
+    font-weight: 400;
+    color: var(--additional-text-color);
+} 
+body h2, 
+body h3{
+    font-weight: 700;
+    color: var(--primary-text-color);
+}
+/* Nav */
+/* Logo */
+.logo{
+    font-family: Raleway, Sans Serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    }
+.first-word{
+    color: var(--accent-text-color);
+}
+.second-word{
+color: var(--logo-text-color);
+}
+nav .item{
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+nav .item:hover,
+nav .item:focus {
+    color:var(--hero-button);
+}
+.list-contact .item{
+    color: var(--additional-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.list-contact .item:hover,
+.list-contact .item:focus{
+    color: var(--accent-text-color);
+}
+/* Hero */
+h1{
+    color: var(--hero-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    }
+.hero{
+    background-color: var(--futer-background-color);
+}
+.hero button{
+background-color: var(--hero-button);
+color: var(--hero-text-color);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.06em;
+}
+    
+
+
