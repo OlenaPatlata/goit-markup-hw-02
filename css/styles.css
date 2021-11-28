@@ -79,6 +79,7 @@ nav .item:focus {
     text-align: center;
 }
 .hero button{
+    font-family: Roboto, Sans Serif;
     background-color: var(--accent-color);
     color: var(--additional-accent-color);
     font-weight: 700;
@@ -168,3 +169,48 @@ footer .item:focus{
 .item.contact{
     color: var(--mailto-tel-text-color);
 }
+/* page portfolio */
+/* filters */
+.filters .list{
+    list-style: none;
+}
+.filters button{
+    font-family: Roboto, Sans Serif;
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: var(--primary-text-color);
+    background-color: var(--additional-background-color);
+    cursor: pointer;
+}
+.filters button:hover,
+.filters button:focus {
+    background-color: var(--accent-color);
+    color: var(--additional-accent-color);
+}
+/* projects */
+.projects .list{
+    list-style: none;
+}
+.projects a{
+    text-decoration: none;
+}
+.project-name{
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+.project-type{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--additional-text-color);
+}
+.project-item{
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
